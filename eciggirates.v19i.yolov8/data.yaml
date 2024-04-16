@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Blume-E-Ciggirate', 'Diamond-E-Ciggirate', 'Golden-E-Ciggirate', 'Swift-E-Ciggirate']
+
+roboflow:
+  workspace: eciggirate
+  project: eciggirates
+  version: 19
+  license: Public Domain
+  url: https://universe.roboflow.com/eciggirate/eciggirates/dataset/19
